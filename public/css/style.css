@@ -147,9 +147,7 @@ footer {
 }
 
 @media (max-width: 400px) {
-    header .container {
-        flex-direction: column;
-    }
+    
     header input {
         max-width: 100%;
     }

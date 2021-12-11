@@ -20,7 +20,7 @@ server.use(express.static(path.join(__dirname, '../public')));
 server.use(mainRoutes);  //criando as rotas
 
 server.use((req, res) => {                        // primeira rota criada
-  res.send("Página não encontrada");
+  res.render("pages/404");
 });
 
 server.listen(process.env.PORT);
